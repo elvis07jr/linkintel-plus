@@ -21,10 +21,9 @@ linkintel-plus/
 ├── popup.html
 ├── popup.js
 ├── background.js
+├── main.py
+├── requirements.txt
 ├── icon16.png/icon48.png/icon128.png (placeholder)
-└── backend/
-    ├── main.py
-    └── requirements.txt
 ```
 
 ---
@@ -39,7 +38,7 @@ linkintel-plus/
 
 ### 2. Run the Backend
 ```bash
-cd linkintel-plus/backend
+# Ensure you are in the linkintel-plus directory
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
